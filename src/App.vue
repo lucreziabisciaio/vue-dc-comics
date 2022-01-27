@@ -3,6 +3,7 @@
     <header-box />
     <main-box />
     <footer-top />
+    <footer-main />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import HeaderBox from './components/HeaderBox.vue';
 import MainBox from './components/MainBox.vue';
 import FooterTop from './components/FooterTop.vue';
+import FooterMain from './components/FooterMain.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     HeaderBox,
     MainBox,
     FooterTop,
+    FooterMain,
   }
 }
 </script>

@@ -73,7 +73,7 @@ export default {
 
         li {
             color: white;
-            font-size: 18px;
+            font-size: 15px;
             display: flex;
             align-items: center;
 
