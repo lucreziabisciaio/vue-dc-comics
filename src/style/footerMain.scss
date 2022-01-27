@@ -21,22 +21,21 @@
                 flex-direction: column;
                 flex-wrap: wrap;
 
-                p {
-                    color: white;
-                    font-weight: 800;
-                    font-size: 15px;
-                    text-transform: uppercase;
-                }
-
                 ul {
                     margin: 12px;
-
 
                     li {
                         color: #707070;
                         text-transform: capitalize;
                         font-size: 12px;
                         margin: 5px 0;
+
+                        p {
+                            color: white;
+                            font-weight: 800;
+                            font-size: 15px;
+                            text-transform: uppercase;
+                        }
                     }
                 }
             }
