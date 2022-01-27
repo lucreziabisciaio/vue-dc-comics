@@ -64,7 +64,11 @@ export default {
 .footer-top {
     background-color: $text-blue;
 
-    ul {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+
+        ul {
         text-transform: uppercase;
         display: flex;
         justify-content: space-around;
@@ -86,6 +90,7 @@ export default {
                 }
             }
         }
+    }
     }
 }
 

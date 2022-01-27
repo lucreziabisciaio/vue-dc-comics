@@ -81,6 +81,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: -1;
 
     .container {
         width: 1200px;
@@ -128,6 +129,7 @@ export default {
                     top: -90px;
                     right: 0;
                     overflow: hidden;
+                    z-index: 0;
                 }
             }
         }
