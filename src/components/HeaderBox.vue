@@ -54,7 +54,6 @@ header {
             padding: 70px 0;
             margin: 0 10px;
             border-bottom: 7px transparent solid;
-            cursor: pointer;
 
             &:hover {
                 color: $text-blue;
