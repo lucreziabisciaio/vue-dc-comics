@@ -1,9 +1,10 @@
 <template>
     <header>
         <div class="container">
-            <div class="header-img">
+            <div class="header-logo">
                 <img src="@/img/dc-logo.png" alt="">
             </div>
+
             <div class="nav-links">
                 <ul>
                     <li>characters</li>
@@ -40,15 +41,23 @@ header {
         justify-content: space-between;
         align-items: center;
     }
+
+        .header-logo {
+            width: 90px;
+
+            img {
+                width: 100%;
+            }
+        }
     
-    ul {
+        ul {
         text-transform: uppercase;
         display: flex;
 
         li {
             font-size: 15px;
             font-weight: 700;
-            padding: 70px 0;
+            padding: 60px 0;
             margin: 0 10px;
             border-bottom: 7px transparent solid;
 
