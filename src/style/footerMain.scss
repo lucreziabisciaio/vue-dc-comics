@@ -17,7 +17,6 @@
 
             .footer-links {
                 max-height: 400px;
-                width: 100%;
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
@@ -25,11 +24,12 @@
                 p {
                     color: white;
                     font-weight: 800;
-                    font-size: 20px;
+                    font-size: 15px;
+                    text-transform: uppercase;
                 }
 
                 ul {
-                    margin: 12px 0;
+                    margin: 12px;
 
 
                     li {

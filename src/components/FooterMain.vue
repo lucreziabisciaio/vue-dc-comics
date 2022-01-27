@@ -5,7 +5,7 @@
                 <div class="footer-links">
                     <ul>
                         <li>
-                            <p>DC COMICS</p>
+                            <p>dc comics</p>
                         </li>
 
                         <li>characters</li>
@@ -21,7 +21,7 @@
 
                     <ul>
                         <li>
-                            <p>Shop</p>
+                            <p>shop</p>
                         </li>
 
                         <li>shop DC</li>
@@ -30,7 +30,7 @@
 
                     <ul>
                         <li>
-                            <p>DC COMICS</p>
+                            <p>dc</p>
                         </li>
 
                         <li>terms of use</li>
@@ -48,7 +48,7 @@
 
                     <ul>
                         <li>
-                            <p>SITES</p>
+                            <p>sites</p>
                         </li>
                         
                         <li>DC</li>
@@ -76,5 +76,4 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
 @import '@/style/footerMain.scss';
-
 </style>
