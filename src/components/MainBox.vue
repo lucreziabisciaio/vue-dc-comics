@@ -16,7 +16,7 @@ export default {
 @import '@/style/variables.scss';
 
 main {
-    background-color: $text-gray;
+    background-color: #1C1C1C;
 
     .container {
         

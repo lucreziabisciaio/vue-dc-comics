@@ -32,7 +32,7 @@ export default {
 @import '@/style/variables.scss';
 
 header {
-    color: $text-gray;
+    color: $gray-color;
     background-color: white;
 
     .container {
@@ -53,8 +53,8 @@ header {
             border-bottom: 7px transparent solid;
 
             &:hover {
-                color: $text-blue;
-                border-bottom: 7px $text-blue solid;
+                color: $blue-color;
+                border-bottom: 7px $blue-color solid;
             }
         }
     }
