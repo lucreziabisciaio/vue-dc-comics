@@ -2,18 +2,21 @@
   <div id="app">
     <header-box />
     <main-box />
+    <footer-top />
   </div>
 </template>
 
 <script>
 import HeaderBox from './components/HeaderBox.vue';
 import MainBox from './components/MainBox.vue';
+import FooterTop from './components/FooterTop.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderBox,
     MainBox,
+    FooterTop,
   }
 }
 </script>

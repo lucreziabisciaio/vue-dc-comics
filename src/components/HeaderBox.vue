@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="container">
-            <div class="img-box">
+            <div class="header-img">
                 <img src="@/img/dc-logo.png" alt="">
             </div>
             <div class="nav-links">

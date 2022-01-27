@@ -24,7 +24,7 @@ main {
 
         h1 {
             color: white;
-            font-size: 50px;
+            font-size: 30px;
             padding: 100px 0;
         }
     }
