@@ -34,11 +34,8 @@ export default {
 header {
     color: $text-gray;
     background-color: white;
-    
 
     .container {
-        width: 1200px;
-        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;

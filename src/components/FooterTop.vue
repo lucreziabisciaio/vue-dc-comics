@@ -65,9 +65,7 @@ export default {
     background-color: $text-blue;
 
     .container {
-        width: 1200px;
-        margin: 0 auto;
-
+        
         ul {
         text-transform: uppercase;
         display: flex;
@@ -75,22 +73,22 @@ export default {
         align-items: center;
         padding: 50px 0;
 
-        li {
-            color: white;
-            font-size: 15px;
-            display: flex;
-            align-items: center;
+            li {
+                color: white;
+                font-size: 15px;
+                display: flex;
+                align-items: center;
 
-            .footer-top-img {
-                margin: 0 15px;
-                width: 50px;
+                .footer-top-img {
+                    margin: 0 15px;
+                    width: 50px;
 
-                img {
-                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
                 }
             }
         }
-    }
     }
 }
 

@@ -19,9 +19,7 @@ main {
     background-color: $text-gray;
 
     .container {
-        width: 1200px;
-        margin: 0 auto;
-
+        
         h1 {
             color: white;
             font-size: 30px;

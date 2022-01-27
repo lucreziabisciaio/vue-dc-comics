@@ -84,8 +84,6 @@ export default {
     z-index: -1;
 
     .container {
-        width: 1200px;
-        margin: 0 auto;
 
         .footer-container {
             max-height: 400px;
@@ -128,7 +126,6 @@ export default {
                     position: absolute;
                     top: -90px;
                     right: 0;
-                    overflow: hidden;
                     z-index: 0;
                 }
             }
