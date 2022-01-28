@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <header-box />
+    <header-box :nav="navMenu"/>
     <main-box />
     <footer-top />
     <footer-main />
@@ -23,6 +23,54 @@ export default {
     FooterTop,
     FooterMain,
     FooterBottom,
+  },
+
+  data() {
+    return {
+      navMenu: [
+        {
+          id: '01',
+          label: 'characters',
+        },
+        {
+          id: '02',
+          label: 'comics',
+        },
+        {
+          id: '03',
+          label: 'movies',
+        },
+        {
+          id: '04',
+          label: 'tv',
+        },
+        {
+          id: '05',
+          label: 'games',
+        },
+        {
+          id: '06',
+          label: 'collectibles',
+        },
+        {
+          id: '07',
+          label: 'videos',
+        },
+        {
+          id: '08',
+          label: 'fans',
+        },
+        {
+          id: '09',
+          label: 'news',
+        },
+        {
+          id: '10',
+          label: 'shop',
+        },
+      ],
+
+    }
   }
 }
 </script>

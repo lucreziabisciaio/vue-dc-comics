@@ -7,16 +7,7 @@
 
             <div class="nav-links">
                 <ul>
-                    <li>characters</li>
-                    <li>comics</li>
-                    <li>movies</li>
-                    <li>tv</li>
-                    <li>games</li>
-                    <li>collectibles</li>
-                    <li>videos</li>
-                    <li>fans</li>
-                    <li>news</li>
-                    <li>shop</li>
+                    <li v-for="link in nav" :key="link.id"> {{ link.label }} </li>
                 </ul>
             </div>
         </div>
@@ -25,7 +16,9 @@
 
 <script>
 export default {
-    
+    props: {
+        nav: Array,
+    }
 }
 </script>
 
