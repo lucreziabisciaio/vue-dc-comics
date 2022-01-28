@@ -1,8 +1,8 @@
 <template>
     <main>
        <div class="container">
-           <div class="card-box">
-               <div class="card" v-for="(card, index) in cardList" :key="index">
+            <div class="card-box">
+                <div class="card" v-for="(card, index) in cardList" :key="index">
                     <div class="card-img">
                         <img :src="card.thumb" alt="">
                     </div>
@@ -10,8 +10,15 @@
                     <div class="card-title">
                         <p>{{ card.series }}</p>
                     </div>
-               </div>
-           </div>
+                </div>
+            </div>
+
+            <div class="load-more">
+                <div class="load-button">
+                    <p>load more</p>
+                </div>   
+            </div>
+           
        </div>
     </main> 
 </template>
@@ -60,6 +67,26 @@ main {
                 padding: 5px 0;
             }
             
+        }
+    }
+
+    .load-more {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .load-button {
+            margin: 15px 0 25px 0;
+            
+            p {
+                color: white;
+                font-size: 15px;
+                font-weight: 700;
+                text-transform: uppercase;
+                padding: 10px 55px;
+                background-color: $blue-color;
+                cursor: pointer;
+            }    
         }
     }
 }
