@@ -2,17 +2,15 @@
     background-image: url('../img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 
     .container {
 
         .footer-container {
-            max-height: 400px;
+            height: 400px;
             padding: 35px 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: relative;
 
             .footer-links {
                 max-height: 400px;
@@ -39,13 +37,17 @@
                 }
             }
 
+            // stessa altezza del footer-container
             .footer-logo {
-                width: 100%;
+                width: 50%;
+                height: 400px;
+                overflow: hidden;
+
+                display: flex;
+                align-items: center;
 
                 img {
-                    position: absolute;
-                    top: -90px;
-                    right: 0;
+                    width: 100%;
                 }
             }
         }
