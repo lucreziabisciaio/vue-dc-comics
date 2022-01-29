@@ -1,6 +1,11 @@
 <template>
     <main>
        <div class="container">
+
+           <div class="current-series">
+                <p>current series</p>
+            </div>
+
             <div class="card-box">
                 <div class="card" v-for="(card, index) in cardList" :key="index">
                     <div class="card-img">
@@ -18,8 +23,8 @@
                     <p>load more</p>
                 </div>   
             </div>
-           
-       </div>
+            
+        </div>
     </main> 
 </template>
 
