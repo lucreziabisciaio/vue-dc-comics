@@ -2,56 +2,51 @@
     background-image: url('../img/footer-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    .container {
+.footer-container {
+    height: 400px;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        .footer-container {
-            height: 400px;
-            padding: 35px 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+.footer-links {
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
-            .footer-links {
-                max-height: 400px;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
+    ul {
+        margin: 12px;
 
-                ul {
-                    margin: 12px;
+        li {
+            color: #707070;
+            text-transform: capitalize;
+            font-size: 12px;
+            margin: 5px 0;
 
-                    li {
-                        color: #707070;
-                        text-transform: capitalize;
-                        font-size: 12px;
-                        margin: 5px 0;
-
-                        p {
-                            color: white;
-                            font-weight: 800;
-                            font-size: 15px;
-                            text-transform: uppercase;
-                        }
-                    }
-                }
-            }
-
-            // stessa altezza del footer-container
-            .footer-logo {
-                width: 50%;
-                height: 400px;
-                overflow: hidden;
-
-                display: flex;
-                align-items: center;
-
-                img {
-                    width: 100%;
-                }
+            p {
+                color: white;
+                font-weight: 800;
+                font-size: 15px;
+                text-transform: uppercase;
             }
         }
     }
+}
 
+// stessa altezza del footer-container
+.footer-logo {
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
 
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 100%;
+    }
 }
