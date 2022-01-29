@@ -49,5 +49,49 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
-@import '@/style/footerBottom.scss';
+
+.footer-bottom {
+    background-color: $gray-color;
+}
+
+.container {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        
+.sign-button {
+    border: 2px $blue-color solid;
+
+    p {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 15px;
+        cursor: pointer;
+    }
+}
+
+.social-area {
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        li {
+            margin: 0px 10px;
+
+            p {
+                color: $blue-color;
+                font-weight: 700;
+                font-size: 18;
+                margin: 0px 5px;
+            }
+        }
+
+    }
+}
+    
+
 </style>
