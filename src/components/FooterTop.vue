@@ -60,6 +60,32 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
-@import '@/style/footerTop.scss';
 
+.footer-top {
+    background-color: $blue-color;
+}
+
+ul {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+
+    li {
+        color: white;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+
+        .footer-top-img {
+            margin: 0 15px;
+            width: 50px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
 </style>
