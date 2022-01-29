@@ -28,39 +28,38 @@ export default {
 header {
     color: $gray-color;
     background-color: white;
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-        .header-logo {
-            width: 90px;
-
-            img {
-                width: 100%;
-            }
-        }
+}
     
-        ul {
-        text-transform: uppercase;
-        display: flex;
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-        li {
-            font-size: 15px;
-            font-weight: 700;
-            padding: 60px 0;
-            margin: 0 10px;
-            border-bottom: 7px transparent solid;
+.header-logo {
+    width: 90px;
 
-            &:hover {
-                color: $blue-color;
-                border-bottom: 7px $blue-color solid;
-            }
+    img {
+        width: 100%;
+    }
+}
+    
+ul {
+    text-transform: uppercase;
+    display: flex;
+
+    li {
+        font-size: 15px;
+        font-weight: 700;
+        padding: 60px 0;
+        margin: 0 10px;
+        border-bottom: 7px transparent solid;
+
+        &:hover {
+            color: $blue-color;
+            border-bottom: 7px $blue-color solid;
         }
     }
-
 }
 
 </style>
